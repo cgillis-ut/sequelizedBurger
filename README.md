@@ -1,2 +1,2 @@
-# sequelizedBurger
-sequelize version of burger app
+# burger
+Node Express Handlebars App
