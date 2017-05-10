@@ -1,0 +1,31 @@
+body {
+	background-color: #EFE8E2;
+	font-size: 16px;
+
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+/*button {
+	background-color: #EFE8E2;
+	border-width: 1px;
+	border-color: gray;
+}*/
+
+
+#left li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+#add {
+	padding-left: 400px;
+	padding-top: 50px;
+}
+
+#right{
+	background-color: white;
+}
