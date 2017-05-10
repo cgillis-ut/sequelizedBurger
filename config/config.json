@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "chrisa8300@gmail.com",
-    "database": "database_development",
+    "database": "burgers_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
@@ -16,7 +16,7 @@
   "production": {
     "username": "y8gdqynshs1nx949",
     "password": "pv62qikl0oxoou05",
-    "database": "database_production",
+    "database": "akvhqryv7ryd318k",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
