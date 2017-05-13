@@ -11,6 +11,17 @@ module.exports = function(sequelize, DataTypes) {
     date_: {
     	type: DataTypes.DATE(6)
     }
+  },
+  {
+    classMethods: {
+      associate: function(models) {
+        Burger.belongsTo(models.Customer, {
+          foreignKey: {
+            allowNull: false
+          }
+        });
+      }
+    }
   });
   return Burger;
 };
